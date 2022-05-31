@@ -8,5 +8,17 @@ LC oscillator (hartley/colpits)
 RC oscillator simple square/ware e sinusoide
 	l'integratore aggiunto trasforma l'onda triangolare in onda sinusoidale di frequenza pari a quella triangolare
 	come destritta nelle formule
+	si puo aggiustare la frequenza regolando r1 -> +r1 = -f e -r1=+f
+	con l'AD e r1=1k -> f=25Khz	 funziona
+	con l'LTC e r1=1k -> f=25Khz funziona un po peggio (la sinusoide sembra una triangolare ma può andare)
+	con l'AD e r1=10 -> f=2500Khz funziona
+	con l'LTC e r1=10 -> f=2500Khz non funziona perchè la sinusoide è un'onda triangolare, anche l'onda quadra e triangolare
+	sono sfasate
 	
 555astable
+	come generatore di onda quadra va bene ma non sappiamo come ottenere una sinusoide da qui
+	
+domande
+-	come impostare i grafici dell'RC
+-	come ottenere un generatore di sinusoide dal 555astable
+-	perchè l'LC si spegne dopo un certo tempo di simulazione 
