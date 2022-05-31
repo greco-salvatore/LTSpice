@@ -1,0 +1,12 @@
+LC oscillator (hartley/colpits)
+	oscillatore che non ha bisogno di onda sinusoidale per generare segnale poichè si resetta tramite disturbo naturale
+	però non si resetta durante la simulazione, fermando inoltre il segnale dopo una certa costante di tempo
+	inoltre non ho capito come regolare il +- del segnale ma forse non cè il bisogno perchè lo si può collegare ad un ampli
+	l'oscillazione inoltre è sempre positiva
+
+	
+RC oscillator simple square/ware e sinusoide
+	l'integratore aggiunto trasforma l'onda triangolare in onda sinusoidale di frequenza pari a quella triangolare
+	come destritta nelle formule
+	
+555astable
